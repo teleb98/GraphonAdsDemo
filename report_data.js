@@ -1,0 +1,14 @@
+const REPORT_DATA = [
+    { id: 0, prompt: "Target Audience", query: "Identify the primary target audience for this video based on visuals.", response: "The primary target audience is **young adults and teenagers**, both in South Korea and globally, who are active on social media and enjoy viral, humorous pop content. The visuals—bright colors, synchronized comedic dancing, meme-ready scenes—are designed for shareability." },
+    { id: 1, prompt: "Product Categories", query: "List specific product categories that would be suitable for advertising here.", response: "• **Sunglasses** (prominent) <br>• **Men’s Fashion** (suits, casual wear) <br>• **Athletic Apparel** (tennis, tracksuits) <br>• **Beverages** (soft drinks) <br>• **Travel Services** (cityscapes)" },
+    { id: 2, prompt: "Brand Safety", query: "Are there any brand safety concerns?", response: "Yes, **mild concerns**:<br>• Partial nudity (sauna scenes)<br>• Crude humor (toilet scene)<br>• Suggestive imagery (yoga)<br>These are comedic but could be flagged by sensitive filters." },
+    { id: 3, prompt: "Mood & Tone", query: "What is the overall mood and which ad tone would match it?", response: "**Humorous, Energetic, Playful.**<br>Best match: Funny, Upbeat, Quirky ad tone." },
+    { id: 4, prompt: "Visible Brands", query: "Identify any visible brands or logos.", response: "• **Mercedes-Benz** (Car)<br>• **VOGUE** (Magazine)<br>• **YAMAHA** (Boat Motor)<br>• **Citibank** (Building)<br>• **Hotel Intercontinental**", videoUrl: "media/All-New Mercedes-Benz SLK.mp4" },
+    { id: 5, prompt: "Consumer Level", query: "Does it appeal to luxury or budget consumers?", response: "It **satirizes luxury**. While showing expensive items (cars, stables), they are used in comedic ways (dancing in a stable). Appeals to a **broad, mainstream audience** rather than exclusive luxury buyers." },
+    { id: 6, prompt: "Family Friendly?", query: "Is this content suitable for children and family-friendly ads?", response: "**No.** Due to mild crude humor and suggestive themes, it may not be suitable for strict family-friendly ad placements." },
+    { id: 7, prompt: "Interests & Hobbies", query: "What specific hobbies or interests does the video cater to?", response: "• K-Pop & Dancing<br>• Equestrian/Horse Riding<br>• Tennis<br>• Boating & Water Sports<br>• Yoga & Fitness" },
+    { id: 8, prompt: "Celebrities", query: "Are there any celebrities or influencers present?", response: "• **PSY** (Lead Artist)<br>• **Hyuna** (K-pop Idol)<br>• **Yoo Jae-suk** (Comedian)<br>• **Noh Hong-chul** (Comedian)" },
+    { id: 9, prompt: "Location Context", query: "Describe the setting for location-based targeting.", response: "**Urban / City Settings**:<br>• Indoor: Sauna, Subway, Parking Garage<br>• Outdoor: River Promenade, Urban Park, Tennis Court<br>(No rural/nature settings)" }
+];
+
+if (typeof module !== 'undefined') module.exports = REPORT_DATA;
